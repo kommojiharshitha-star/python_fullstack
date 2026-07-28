@@ -1,0 +1,1 @@
+alert("Welcome to NRIIT Learning Mangement System")
