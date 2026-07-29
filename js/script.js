@@ -16,4 +16,11 @@ function changeHeading () {
     let button = document.getElementById("btnGreeting");
     button.addEventListener("click", function () {
         alert("Welcome to javascript Event Handling");
-});                                                                               
+});
+let registerForm = document.getElementById("registerForm");
+registerForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form submission
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+})                                                                               
