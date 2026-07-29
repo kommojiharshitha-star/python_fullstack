@@ -6,7 +6,14 @@ let msg = document.getElementById("message")
 msg.innerHTML = "Javascript is Fun"
 console.log("Message element: ", msg)
 function showmessage() {
-    alert("Welcome to NRIIT Learning Management System ")}
-function changeHeading(){
+    alert("Welcome to NRIIT Learning Management System ")
+}
+function changeHeading () {
     document.getElementById("welcome").
-    innerHTML = "Welcome Python FullStack Developers"}                                                                               
+    innerHTML = "Welcome Python FullStack Developers"}
+    let heading1=document.querySelector("#welcome");
+    console.log("Heading element: ", heading)
+    let button = document.getElementById("btnGreeting");
+    button.addEventListener("click", function () {
+        alert("Welcome to javascript Event Handling");
+});                                                                               
