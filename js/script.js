@@ -23,4 +23,15 @@ registerForm.addEventListener("submit", function (event) {
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
+    if (!name || !email || !password){
+        alert("Please fill in all fields.");
+        return;
+    }
+    alert("Registration successful!");
+
+    //prefrom validation or further proccessing here
+    console.log("Name:", name);
+    console.log("Email:", email);
+    console.log("Password:", password);
+
 })                                                                               
