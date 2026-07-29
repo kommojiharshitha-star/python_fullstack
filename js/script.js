@@ -6,4 +6,7 @@ let msg = document.getElementById("message")
 msg.innerHTML = "Javascript is Fun"
 console.log("Message element: ", msg)
 function showmessage() {
-    alert("Welcome to NRIIT Learning Management System ")}                                                                               
+    alert("Welcome to NRIIT Learning Management System ")}
+function changeHeading(){
+    document.getElementById("welcome").
+    innerHTML = "Welcome Python FullStack Developers"}                                                                               
